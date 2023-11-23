@@ -1,0 +1,58 @@
+header > h2 {
+	text-align: center;
+}
+
+.navegacion a img {
+	width: 60px;
+	margin-top: 2px;
+}
+
+.row .calculadora form{
+	padding: 20px;
+}
+
+.row .calculadora form .input-field {
+	margin-bottom: 30px;
+}
+
+.row .calculadora .imagen {
+	padding: 20px;
+}
+
+.row .calculadora .imagen img {
+	width: 100%;
+	height: 250px;
+	border-radius: 30px;
+}
+
+.row .tabla {
+	padding: 25px;
+}
+
+.row .tabla .observacion {
+	margin-top: 30px;
+}
+
+.no-datos {
+	text-align: center;
+	font-weight: 600;
+}
+
+.resaltado {
+    background-color: lightgreen; /* Cambia esto al color que desees */
+}
+
+/* Estilos para el contenedor scrollable */
+.tabla-scroll {
+    max-height: 370px; /* Altura máxima para el scroll */
+    overflow-y: auto; /* Habilitar scroll vertical cuando el contenido exceda la altura máxima */
+}
+
+/* Estilos para el encabezado */
+.headerP {
+    position: sticky;
+    top: 0; /* Fija el encabezado en la parte superior */
+    background-color: #fff; /* Cambia esto por el color de fondo deseado */
+    z-index: 100; /* Asegura que esté por encima del resto del contenido */
+}
+
